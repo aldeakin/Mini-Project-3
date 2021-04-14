@@ -1,0 +1,87 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  padding:0;
+  margin:0;
+}
+
+body{
+  height: 200px;
+  width: 100%;
+  background-image: linear-gradient(0deg, #f08080 10%, #f4978e 10%, #f4978e 30%, #f8ad9d 30%, #f8ad9d 42%, #fbc4ab 42%, #fbc4ab 50%, #f08080 50%, #f08080 60%, #f4978e 60%, #f4978e 80%, #f8ad9d 80%, #f8ad9d 92%, #fbc4ab 92%, #fbc4ab 100%);
+background-size: 250.00px 250.00px;
+
+}
+
+form{
+  background-color: #FCFC62;
+  width: 100%;
+  margin: 30px auto;
+  max-width: 550px;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow:#b34e4e 30px 40px 0px 0px;
+  padding-top: 27px;
+  text-align: center;
+
+}
+
+h1{
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
+  margin-top:45px;
+  font-weight: 400;
+  text-shadow: 2px 2px 2px #b34e4e;
+  font-size: 50px;
+}
+
+p{
+  padding-bottom: 20px;
+}
+
+fieldset{
+  padding: 5px 15px 15px 15px;
+  display: inline-block;
+  width:364px;
+}
+
+label{
+  display: inline-block;
+  width: 100px;
+  margin-bottom:10px;
+  vertical-align: top;
+}
+
+input[type=text], input[type=email], textarea{
+  width: 382px;
+  padding: 5px;
+}
+
+button{
+  background-color:#f08080;
+  font-size: 25px;
+  padding: 5px 25px;
+  text-shadow: 2px 2px 2px #b34e4e;
+  margin-bottom:25px;
+  color:white;
+}
+
+#buttoncenter{
+  text-align: center;
+
+}
+
+.product{
+  margin-right:5px;
+  margin-left:15px;
+  margin-bottom:15px;
+}
+.calendar{
+  margin-bottom:15px;
+}
+
+.row{
+  color:white;
+  text-align: center;
+  padding-top:25px;
+}
